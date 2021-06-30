@@ -23,5 +23,5 @@ var point1: Double = 3.4
 
 fun main(array: Array<String>) {
     number = 20
-    number = 20.5
+//    number = 20.5
 }
