@@ -25,4 +25,6 @@ fun main(array: Array<String>) {
     // Array를 만드는 방법(4) -> lambda 를 활용한 방법
     var a5 = Array(10, {0})
     var a6 = Array(5, {1;2;3;4;5})
+
+    println(a6[1])
 }
