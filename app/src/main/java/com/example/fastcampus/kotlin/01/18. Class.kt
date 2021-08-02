@@ -36,6 +36,11 @@ fun main(array: Array<String>) {
     val runableCar2: RunableCar2 = RunableCar2("nice engine", "long body")
     println(runableCar2.body)
     println(runableCar2.engine)
+
+    println()
+    val testClass = TestClass()
+    testClass.test(1)
+    testClass.test(1,2)
 }
 
 // 클래스 만드는 방법(1)
@@ -130,6 +135,18 @@ class RunableCar2 {
     }
 }
 
+// 오버로딩
+// -> 이름이 같지만 받는 파라미터가 다른 함수
+class TestClass() {
+
+    fun test(a: Int) {
+        println("up")
+    }
+
+    fun test(a: Int, b: Int) {
+        println("down")
+    }
+}
 
 
 
