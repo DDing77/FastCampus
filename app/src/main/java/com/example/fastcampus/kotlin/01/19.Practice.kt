@@ -15,6 +15,10 @@ fun main(args: Array<String>) {
     println(calculator2.multiply(1,2,3))
     println(calculator2.divide(10,2,3))
 
+    println()
+
+    val calculaotr3 = Calculaotr3(3)
+    calculaotr3.plus(3).minus(5)
 }
 
 class Calculator1() {
@@ -75,6 +79,30 @@ class Calculator2() {
             }
         }
         return result
+    }
+}
+
+// 가장 쉬운 방법
+class Calculaotr3(val initialValue: Int) {
+
+    fun plus(number: Int) : Calculaotr3 {
+        val result = this.initialValue + number
+        return Calculaotr3(result)
+    }
+
+    fun minus(number: Int) : Calculaotr3 {
+        val result = this.initialValue - number
+        return Calculaotr3(result)
+    }
+
+    fun multiply(number: Int) : Calculaotr3 {
+        val result = this.initialValue * number
+        return Calculaotr3(result)
+    }
+
+    fun divide(number:Int) : Calculaotr3 {
+        val result = this.initialValue / number
+        return Calculaotr3(result)
     }
 }
 //
