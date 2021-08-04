@@ -82,7 +82,7 @@ class Calculator2() {
     }
 }
 
-// 가장 쉬운 방법
+// Chaning(체이닝) 사용
 class Calculaotr3(val initialValue: Int) {
 
     fun plus(number: Int) : Calculaotr3 {
