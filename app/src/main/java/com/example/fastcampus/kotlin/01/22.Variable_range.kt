@@ -30,8 +30,7 @@ class Test(var name : String ) { // 지역변수
     }
 
     fun testFun2(){
-        name
-        birth
+
     }
 
 }
