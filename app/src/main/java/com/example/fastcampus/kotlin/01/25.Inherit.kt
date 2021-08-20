@@ -8,10 +8,10 @@ package com.example.fastcampus.kotlin.`01`
 
 fun main(args: Array<String>) {
     val superCar100 : SuperCar100 = SuperCar100()
-    superCar100.dirve()
+    println(superCar100.drive())
     superCar100.stop()
 
-    val bus100 : Bus100 = Bus100()
+//    val bus100 : Bus100 = Bus100()
 //    bus100.drive()
 
 }
@@ -21,8 +21,8 @@ fun main(args: Array<String>) {
 // 부모 : Car100
 // 자식 : SuperCar100 , Bus100
 open class Car100() {
-    fun dirve() {
-
+    open fun drive():String {
+        return "달린다"
     }
 
     fun stop() {
@@ -31,14 +31,12 @@ open class Car100() {
 }
 
 class SuperCar100() : Car100() {
-
-
-    fun driveFast() {
-
+    override fun drive():String {
+        val run = super.drive()
+        return "빨리 $run"
     }
 }
 
-
-class Bus100()  {
+class Bus100() : Car100() {
 
 }
