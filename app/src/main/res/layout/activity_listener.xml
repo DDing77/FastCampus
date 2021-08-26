@@ -13,6 +13,11 @@
         android:text="Hello"
         android:id="@+id/hello"/>
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/gradient"
+        android:id="@+id/image"/>
 
 
 </LinearLayout>
