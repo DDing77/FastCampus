@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/Desktop/FastCampus/app/src/main/res/layout/activity_fragment.xml" value="0.30925925925925923" />
         <entry key="..\:/Users/User/Desktop/FastCampus/app/src/main/res/layout/activity_intent.xml" value="0.25" />
         <entry key="..\:/Users/User/Desktop/FastCampus/app/src/main/res/layout/activity_intent2.xml" value="0.23935185185185184" />
         <entry key="..\:/Users/User/Desktop/FastCampus/app/src/main/res/layout/activity_open_internet.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/User/Desktop/FastCampus/app/src/main/res/layout/fragment_one.xml" value="0.30925925925925923" />
       </map>
     </option>
   </component>
